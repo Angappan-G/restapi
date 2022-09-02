@@ -22,5 +22,5 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
-   path('ganesh/', include('my_awesome_api.urls')),
+   path('star-wars/', include('my_awesome_api.urls')),
 ]
